@@ -21,7 +21,7 @@ repository               : "eunsu-k1m/eunsu-k1m.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "my_profile.png"
+  avatar           : "my_profile.jpg"
   name             : "Eunsu Kim"
   pronouns         : # example: "she/her"  
   bio              : "Master's Student of KAIST School of Computing"
