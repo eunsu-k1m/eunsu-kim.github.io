@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Hello! I am **Eunsu Kim**, a visiting scholar in the [Computer Science Department at Carnegie Mellon University](https://www.cmu.edu/), working with [Sherry Tongshuang Wu](https://sherrywu.me/).
+Hello! I am **Eunsu Kim**, a visiting scholar in the [Computer Science Department at Carnegie Mellon University](https://www.cmu.edu/), working with [Sherry Tongshuang Wu](https://www.cs.cmu.edu/~sherryw/) .
 I am also a second-year **Master’s student** in the [School of Computing](https://cs.kaist.ac.kr/) at [KAIST](https://www.kaist.ac.kr/en/), advised by [Alice Oh](https://aliceoh9.github.io/).
 
 
