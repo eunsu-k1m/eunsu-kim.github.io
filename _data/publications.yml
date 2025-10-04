@@ -1,119 +1,92 @@
-- title: "Social Bias Benchmark for Generation: A Comparison of Generation and QA-Based Evaluations"
-  authors: "Jiho Jin, Woosung Kang, Junho Myung, Alice Oh"
+- title: "BenchHub: A Unified Benchmark Suite for Holistic and Customizable LLM Evaluation"
+  authors: "Eunsu Kim, Haneul Yoo, Guijin Son, Hitesh Patel, Amit Agarwal, Alice Oh"
   collection: "publications"
-  date: "2025-07-27"
-  venue: "ACL (main), 2025"
-  type: 'conference and journals'
-  arxivurl: "https://arxiv.org/abs/2503.06987"
-  homeurl: "https://jinjh0123.github.io/BBG/"
-  dataurl: "https://huggingface.co/datasets/jinjh0123/bbg"
+  date: "2025-06-01"
+  venue: "Preprint, Under Review"
+  type: "preprint"
+  arxivurl: "https://arxiv.org/abs/2506.00482"
 
-- title: "PapersPlease: A Benchmark for Evaluating Motivational Values of Large Language Models Based on ERG Theory"
-  authors: "Junho Myung, Yeon Su Park, Sunwoo Kim, Shin Yoo, Alice Oh"
+- title: "MUG-Eval: A Proxy Evaluation Framework for Multilingual Generation Capabilities in Any Language"
+  authors: "Seyoung Song, Seogyeong Jeong, Eunsu Kim, Jiho Jin, Dongkwan Kim, Jay Shin, Alice Oh"
   collection: "publications"
-  date: "2025-07-27"
-  venue: "GEM2 Workshop: Generation, Evaluation & Metrics @ ACL 2025"
-  type: 'workshop, demos, and posters'
-  arxivurl: "https://arxiv.org/abs/2506.21961"
-  award: "Oral Presentation"
+  date: "2025-05-20"
+  venue: "EMNLP 2025 (Findings)"
+  type: "conference and journals"
+  arxivurl: "https://arxiv.org/abs/2505.14395"
 
-- title: "Salad-Bowl-LLM: Multi-Culture LLMs by In-Context Demonstrations from Diverse Cultures"
-  authors: "Dongkwan Kim, Junho Myung, Alice Oh"
+- title: "FLEX-TRAVELPLANNER: A Benchmark for Flexible Planning with Language Agents"
+  authors: "Juhyun Oh, Eunsu Kim, Alice Oh"
   collection: "publications"
-  date: "2024-12-09"
-  venue: "Workshop on Socially Responsible Language Modelling Research @ NeurIPS 2024"
-  type: 'workshop, demos, and posters'
-  paperurl: "https://openreview.net/forum?id=KsAfPGPZZn&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DNeurIPS.cc%2F2024%2FWorkshop%2FSoLaR%2FAuthors%23your-submissions)"
+  date: "2025-04-15"
+  venue: "ICLR 2025 Workshop for Reasoning and Planning"
+  type: "workshop, demos, and posters"
+  paperurl: "https://openreview.net/forum?id=a7unQ5jMx7"
+
+- title: "WHEN TOM EATS KIMCHI: Evaluating Cultural Awareness of Multimodal Large Language Models in Cultural Mixture Contexts"
+  authors: "Jun Seong Kim, Kyaw Ye Thu, Javad Ismayilzada, Junyeong Park, Eunsu Kim, Huzama Ahmad, Na Min An, James Thorne, Alice Oh"
+  collection: "publications"
+  date: "2025-04-01"
+  venue: "NAACL 2025 c3NLP (Outstanding Paper)"
+  type: "conference and journals"
+  arxivurl: ""
+  tldr: "Evaluates cultural awareness of MLLMs in mixed-cultural inputs (e.g., kimchi and person identity). Introduces MIXCUBE benchmark and finds bias toward high-resource cultures."
+
+- title: "Diffusion Models Through a Global Lens: Are They Culturally Inclusive?"
+  authors: "Zahra Bayramli, Ayhan Suleymanzade, Na Min An, Huzama Ahmad, Eunsu Kim, Junyeong Park, James Thorne, Alice Oh"
+  collection: "publications"
+  date: "2025-02-15"
+  venue: "ACL 2025 (Oral); NAACL 2025 c3NLP Workshop"
+  type: "conference and journals"
+  arxivurl: "https://arxiv.org/abs/2502.08914"
+
+- title: "LLM-AS-AN-INTERVIEWER: Beyond Static Testing Through Dynamic LLM Evaluation"
+  authors: "Eunsu Kim, Juyoung Suk, Seungone Kim, Niklas Muennighoff, Dongkwan Kim, Alice Oh"
+  collection: "publications"
+  date: "2024-12-24"
+  venue: "ACL 2025 (Findings)"
+  type: "conference and journals"
+  arxivurl: "https://arxiv.org/abs/2412.10424"
+  codeurl: "https://github.com/interview-eval/interview-eval"
+  tldr: "Introduces LLM-as-an-Interviewer, a dynamic evaluation framework using LLMs to interview other LLMs."
+
+- title: "Uncovering Factor Level Preferences to Improve Human-Model Alignment"
+  authors: "Juhyun Oh*, Eunsu Kim*, Jiseon Kim, Wenda Xu, William Yang Wang, Alice Oh"
+  collection: "publications"
+  date: "2024-10-15"
+  venue: "EMNLP 2025 (Findings)"
+  type: "conference and journals"
+  arxivurl: "https://arxiv.org/pdf/2410.06965"
 
 - title: "BLEnD: A Benchmark for LLMs on Everyday Knowledge in Diverse Cultures and Languages"
-  authors: 'Junho Myung, Nayeon Lee, Yi Zhou, Jiho Jin, Rifki Afina Putri, 14 more authors, Nedjma Ousidhoum, Jose Camacho-Collados, Alice Oh'
-  collection: 'publications'
-  date: '2024-12-09'
-  venue: 'NeurIPS Datasets & Benchmarks, 2024'
-  type: 'conference and journals'
-  paperurl: 'https://proceedings.neurips.cc/paper_files/paper/2024/hash/8eb88844dafefa92a26aaec9f3acad93-Abstract-Datasets_and_Benchmarks_Track.html'
-  dataurl: 'https://github.com/nlee0212/BLEnD'
-  award: 'Best Paper at C3NLP Workshop @ ACL'
-  homeurl: "https://junhomyung.github.io/BLEnD/"
+  authors: "Junho Myung, Nayeon Lee, Yi Zhou, Jiho Jin, Rifki Afina Putri, Dimosthenis Antypas, Hsuvas Borkakoty, Eunsu Kim, Carla Perez-Almendros, Abinew Ali Ayele, Víctor Gutiérrez-Basulto, Yazmín Ibáñez-García, Hwaran Lee, Shamsuddeen Hassan Muhammad, Kiwoong Park, Anar Sabuhi Rzayev, Nina White, Seid Muhie Yimam, Mohammad Taher Pilehvar, Nedjma Ousidhoum, Jose Camacho-Collados, Alice Oh"
+  collection: "publications"
+  date: "2024-12-09"
+  venue: "NeurIPS Datasets & Benchmarks, 2025"
+  type: "conference and journals"
+  arxivurl: "https://arxiv.org/abs/2406.09948"
+  dataurl: "https://huggingface.co/datasets/nayeon212/BLEnD"
 
-- title: "LLM-Driven Learning Analytics Dashboard for Teachers in EFL Writing Education"
-  authors: 'Minsun Kim, SeonGyeom Kim, Suyoun Lee, Yoosang Yoon, Junho Myung, Haneul Yoo, Hyunseung Lim, Jieun Han, Yoonsu Kim, So-Yeon Ahn, Juho Kim, Alice Oh, Hwajung Hong, Tak Yeon Lee'
-  collection: 'publications'
-  date: '2024-11-16'
-  venue: 'Workshop on Customizable NLP @ EMNLP 2024'
-  type: 'workshop, demos, and posters'
-  arxivurl: 'https://arxiv.org/abs/2410.15025'
+- title: "CLIcK: Evaluation of Cultural and Linguistic Intelligence in Korean"
+  authors: "Eunsu Kim, Juyoung Suk, Philhoon Oh, Haneul Yoo, James Thorne, Alice Oh"
+  collection: "publications"
+  date: "2024-05-10"
+  venue: "LREC-COLING 2024"
+  type: "conference and journals"
+  arxivurl: "https://arxiv.org/abs/2403.06412"
+  dataurl: "https://github.com/rladmstn1714/CLIcK"
 
-- title: "LLM-as-a-tutor in EFL Writing Education: Focusing on Evaluation of Student-LLM Interaction"
-  authors: 'Jieun Han, Haneul Yoo, Junho Myung, Minsun Kim, Hyunseung Lim, Yoonsu Kim, Tak Yeon Lee, Hwajung Hong, Juho Kim, So-Yeon Ahn, Alice Oh'
-  collection: 'publications'
-  date: '2024-11-16'
-  venue: 'Workshop on Customizable NLP @ EMNLP 2024'
-  type: 'workshop, demos, and posters'
-  paperurl: 'https://aclanthology.org/2024.customnlp4u-1.21/'
+- title: "Multi-FAct: Assessing Multilingual LLMs' Multi-Regional Knowledge using FActScore"
+  authors: "Sheikh Shafayat, Eunsu Kim*, Juhyun Oh*, Alice Oh"
+  collection: "publications"
+  date: "2024-04-10"
+  venue: "COLM 2024; Workshop on Global AI Cultures @ ICLR 2024"
+  type: "workshop, demos, and posters"
+  arxivurl: "https://arxiv.org/abs/2402.18045"
 
-- title: "Survey of Cultural Awareness in Language Models: Text and Beyond"
-  authors: 'Siddhesh Pawar, Junyeong Park, Jiho Jin, Arnav Arora, Junho Myung, Srishti Yadav, Faiz Ghifari Haznitrama, Inhwa Song, Alice Oh, Isabelle Augenstein'
-  collection: 'publications'
-  date: '2025-05-14'
-  venue: 'Computational Linguistics'
-  type: 'conference and journals'
-  arxivurl: 'https://direct.mit.edu/coli/article/doi/10.1162/COLI.a.14/130804'
-  codeurl: 'https://github.com/siddheshih/culture-awareness-llms'
-
-- title: "WORLDCUISINES: A Massive-Scale Benchmark for Multilingual and Multicultural Visual Question Answering on Global Cuisines"
-  authors: 'Genta Indra Winata, Frederikus Hudi, Patrick Amadeus Irawan, 24 more authors, Junho Myung, 23 more authors'
-  collection: 'publications'
-  date: '2025-04-29'
-  venue: 'NAACL (main), 2025'
-  type: 'conference and journals'
-  paperurl: 'https://aclanthology.org/2025.naacl-long.167/'
-  codeurl: 'https://github.com/worldcuisines/worldcuisines'
-  award: 'Best Theme Paper Award'
-
-- title: "LearnerVoice: A Dataset of Non-Native English Learners' Spontaneous Speech"
-  authors: 'Haechan Kim, Junho Myung, Seoyoung Kim, Sungpah Lee, Dongyeop Kang, Juho Kim'
-  collection: 'publications'
-  date: '2024-09-01'
-  venue: 'Interspeech, 2024'
-  type: 'conference and journals'
-  paperurl: 'https://www.isca-archive.org/interspeech_2024/kim24v_interspeech.pdf'
-  award: 'Shortlisted for Best Student Paper Award'
-
-- title: 'Exploring Cross-Cultural Differences in English Hate Speech Annotations: From Dataset Construction to Analysis'
-  authors: 'Nayeon Lee, Chani Jung, Junho Myung, Jiho Jin, Jose Camacho-Collados, Juho Kim, Alice Oh'
-  collection: 'publications'
-  date: '2024-06-16'
-  venue: 'NAACL (main), 2024'
-  type: 'conference and journals'
-  paperurl: 'https://aclanthology.org/2024.naacl-long.236/'
-  arxivurl: 'https://arxiv.org/abs/2308.16705'
-  dataurl: 'https://github.com/nlee0212/CREHate'
-  award: 'Resource Award'
-
-- title: 'RECIPE4U: Student-ChatGPT Interaction Dataset in EFL Writing Education'
-  authors: 'Jieun Han, Haneul Yoo, Junho Myung, Minsun Kim, Tak Yeon Lee, So-Yeon Ahn, Alice Oh'
-  collection: 'publications'
-  date: '2024-05-20'
-  venue: 'LREC-COLING, 2024'
-  type: 'conference and journals'
-  paperurl: 'https://aclanthology.org/2024.lrec-main.1193/'
-  arxivurl: 'https://arxiv.org/abs/2403.08272'
-  homeurl: 'https://zeunie.github.io/RECIPE4U/'
-
-- title: "Learning from Teaching Assistants to Program with Subgoals: Exploring the Potential for AI Teaching Assistants"
-  authors: 'Changyoon Lee, Junho Myung, Jieun Han, Jiho Jin, Alice Oh'
-  collection: 'publications'
-  date: '2023-09-19'
-  venue: ''
-  type: 'preprint'
-  arxivurl: 'https://arxiv.org/abs/2309.10419'
-
-- title: 'RECIPE: How to integrate ChatGPT into EFL writing education'
-  authors: 'Jieun Han, Haneul Yoo, Yoonsu Kim, Junho Myung, Minsun Kim, Hyunseung Lim, Juho Kim, Tak Yeon Lee, Hwajung Hong, So-Yeon Ahn, Alice Oh'
-  collection: 'publications'
-  date: '2023-07-20'
-  venue: 'ACM Learning @ Scale (L@S) Work-in-Progress, 2023'
-  type: 'workshop, demos, and posters'
-  paperurl: 'https://dl.acm.org/doi/10.1145/3573051.3596200'
-  arxivurl: 'https://arxiv.org/abs/2305.11583'
+- title: "The Generative AI Paradox in Evaluation: What It Can Solve, It May Not Evaluate"
+  authors: "Juhyun Oh*, Eunsu Kim*, Inha Cha*, Alice Oh"
+  collection: "publications"
+  date: "2024-02-15"
+  venue: "EACL SRW 2024"
+  type: "workshop, demos, and posters"
+  arxivurl: "https://arxiv.org/abs/2402.06204"
